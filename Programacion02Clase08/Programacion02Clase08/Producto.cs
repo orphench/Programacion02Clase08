@@ -8,7 +8,7 @@ namespace Programacion02Clase08
 {
     class Producto
     {
-        public int _codigo;
+        private int _codigo;
         //private solo lo puede ver la clase
         protected string _nombre;
         //protected solo lo pueden ver las clases e hijos
@@ -23,6 +23,19 @@ namespace Programacion02Clase08
             set
             {
                 this._nombre = value;
+            }
+        }
+
+        public int Codigo
+        {
+            get
+            {
+                return this._codigo;
+            }
+
+            set
+            {
+                this._codigo = value;
             }
         }
 

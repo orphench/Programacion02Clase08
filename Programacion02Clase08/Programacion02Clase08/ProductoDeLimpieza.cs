@@ -18,7 +18,7 @@ namespace Programacion02Clase08
 
         public eTipoLimpieza _tipo;
 
-        public ProductoDeLimpieza(ProductoDeLimpieza productoLimpieza):base(productoLimpieza._codigo, productoLimpieza.Nombre)
+        public ProductoDeLimpieza(ProductoDeLimpieza productoLimpieza):base(productoLimpieza.Codigo, productoLimpieza.Nombre)
         {
             //this._nombre = "lalala";
         }

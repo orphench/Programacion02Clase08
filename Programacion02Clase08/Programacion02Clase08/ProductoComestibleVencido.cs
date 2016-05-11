@@ -8,8 +8,9 @@ namespace Programacion02Clase08
 {
     public sealed class ProductoComestibleVencido:ProductoComestible
     {       
+
         public ProductoComestibleVencido(ProductoComestible producto)
-            : base(producto.Nombre, producto._codigo, producto.Fecha)
+            : base(producto.Nombre, producto.Codigo, producto.Fecha)
         {
             this._nombre = "lalala";
             
